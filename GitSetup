@@ -1,0 +1,20 @@
+Step 1: Installing Git
+We can install Git without having to add any repositories.
+
+apt-get install git
+
+
+Step 2: Configuring Git
+Git works best if you give it some basic information: your name and your email address. You can set these options in Git with the following commands:
+
+git config --global user.name "John Appleseed"
+git config --global user.email "email@example.com"
+
+Step 3: Add folder as a git folder
+go to the project folder and enter: 
+git init 
+
+Step 4 : Adding files in the folder 
+whenever we add files to the folder we enter: 
+git add .
+
